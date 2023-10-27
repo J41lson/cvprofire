@@ -1,0 +1,77 @@
+
+    body {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #660099;
+    }
+
+    header {
+      background-color: #121010;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+      opacity: 90%;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #444;
+      padding: 1em 0;
+      opacity: 90%;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #7118182e;
+      box-shadow: 0 0 10px rgba(53, 48, 48, 0.1);
+      color: white;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #3a020273;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #b32020;
+      color: #f1ebeb;
+      border: none;
+      cursor: pointer;
+    }
+    .b1{
+      margin-right: 0;
+      padding: 10px;
+    }
+    .b2, .b3, .b4{
+      border: 8px solid #100404;
+      border-radius: 40px 40px 0px 40px;
+      background-color: #333;
+    }
+    li{
+      list-style-type: none;
+    }
+    #links{
+      background-color: #5e3333a7;
+      
+    }.b5{
+      text-align: center;
+    }.b6{
+      text-align: right;
+    }
